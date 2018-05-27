@@ -12,7 +12,7 @@ from slacker import Slacker
 def list_slack():
     """List channels & users in slack."""
     try:
-        token = "xoxp-371034147538-370808995828-372082001527-3d7b7c74ab450a8c963561c727bead6d"
+        token = "xoxp-XXXXXXXXXXXXXXXX"
         slack = Slacker(token)
 
         # Get channel list
