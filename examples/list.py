@@ -3,6 +3,7 @@
 
 # https://github.com/os/slacker
 # https://api.slack.com/methods
+# https://metacorp-space.slack.com
 
 import os
 from slacker import Slacker
@@ -11,7 +12,7 @@ from slacker import Slacker
 def list_slack():
     """List channels & users in slack."""
     try:
-        token = os.environ['SLACK_TOKEN']
+        token = "xoxp-371034147538-370808995828-372082001527-3d7b7c74ab450a8c963561c727bead6d"
         slack = Slacker(token)
 
         # Get channel list
